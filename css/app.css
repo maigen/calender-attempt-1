@@ -1,0 +1,90 @@
+
+body {
+	font-family: sans-serif;
+}
+header,main {
+    display: table-row;
+    width: 100%;
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 2.5vw;
+}
+h1 a, h1 a:hover, h1 a:visited{
+	padding: 0 20px;
+	text-decoration: none;
+	color: black;
+}
+h1 a:hover{
+	text-decoration: underline;
+}
+#headline {
+    min-width: 25%;
+    display: inline-block;
+}
+
+
+
+
+
+#calendar {
+    width: 98%;
+    margin: auto;
+    display: table;
+    font-size: 52px;
+    font-size: 5vw;
+}
+
+header span, main span {
+    display: table-cell;
+    box-sizing: border-box;
+    text-align: center;
+}
+main span {
+    padding: 5% 0;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    width: 14%;
+    position: relative;
+}
+main span p {
+	margin: 0px;
+    font-size: 1.9vw;
+    height: 0px;
+}
+
+main span.today_true {
+    border: 1vw solid black;
+}
+.orange{
+	background-color: #e89347;
+}
+.blue{
+	background-color: #517bee;
+}
+.red{
+	background-color: #ed3149;
+}
+.green{
+	background-color: #34bc37;
+}
+.gray{
+	background-color: #666865;
+}
+.purple{
+	background-color: #8a52de;
+}
+span.Sun {
+    background-color: lightgray;
+    border: none;
+}
+main span.month_false {
+    background-color: white;
+    color: lightgray;
+    font-weight: normal;
+}
+
